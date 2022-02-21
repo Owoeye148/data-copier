@@ -1,0 +1,1 @@
+docker run -it --name data-copier --rm --network data-copier-nw -v 'C:\Users\OWOEYE TEMITOPE\research\data\retail_db_json:/retail_db_json' -e BASE_DIR=/retail_db_json -e DB_HOST=53b7550ae026 -e DB_PORT=5432 -e DB_NAME=retail_db -e DB_USER=topstics -e DB_PASS=samuel1997... data-copier python /data-copier/app/app.py
